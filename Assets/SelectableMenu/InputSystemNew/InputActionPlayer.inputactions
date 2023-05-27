@@ -1,0 +1,68 @@
+{
+    "name": "InputAction",
+    "maps": [
+        {
+            "name": "KeyBoardPlayer",
+            "id": "fca0b6db-6e54-439d-b2d2-a449fe8090c6",
+            "actions": [
+                {
+                    "name": "Select_MouseLeftDown",
+                    "type": "Button",
+                    "id": "01670731-6a8a-4492-8cbc-3ba6ae2fbfd7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4bfa3b59-8a36-4d18-b568-8503022d7cdf",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard",
+                    "action": "Select_MouseLeftDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TouchPadPlayer",
+            "id": "2bb6da78-c849-4180-9d9d-90da4dbbe2bd",
+            "actions": [
+                {
+                    "name": "Select_TouchPadDown",
+                    "type": "Button",
+                    "id": "5ea4568a-86a6-4c5b-8781-2e50e80f1f18",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "de500410-98ed-4cbf-9857-d7533844636a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard",
+                    "action": "Select_TouchPadDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyBoard",
+            "bindingGroup": "KeyBoard",
+            "devices": []
+        }
+    ]
+}
